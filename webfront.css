@@ -1,4 +1,12 @@
 /* WwxSkin - webfront.css */
+/* WwxSkinXS - body {zoom: 80%;}  */
+/* WwxSkinXL - body {zoom: 125%;} */
+@import url('//fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: Lato, arial, sans-sarif;
+} 
+
 .ipsLogin>.logo { 
     background-image: url(./img/wwx.logo.png); 
     height: 128px;
@@ -7,7 +15,11 @@
     width: 128px;
 }
 
-/* Logo central and same width like buttons */  
+/* Logo central and same width like buttons */
+.ipsTabPane>.navigation {
+    font-family: Lato, 'Arial Narrow', arial, sans-sarif;
+}
+
 .ipsTabPane>.navigation>.sub {
     padding: 0px 0px 0px 7px;
     width: 42px;
