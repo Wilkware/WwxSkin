@@ -1,8 +1,8 @@
 # WwxSkin
 
 [![Version](https://img.shields.io/badge/Symcon-Webfront--Skin-red.svg)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-skins/)
-[![Product](https://img.shields.io/badge/Symcon%20Version-5.1--5.4-blue.svg)](https://www.symcon.de/produkt/)
-[![Version](https://img.shields.io/badge/Skin%20Version-1.4.20200205-orange.svg)](https://github.com/Wilkware/WwxSkin)
+[![Product](https://img.shields.io/badge/Symcon%20Version-6.0-blue.svg)](https://www.symcon.de/produkt/)
+[![Version](https://img.shields.io/badge/Skin%20Version-1.5.20211227-orange.svg)](https://github.com/Wilkware/WwxSkin)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 WebFront Skin for IP-Symcon
@@ -25,19 +25,22 @@ Here is a brief list of the adjustments:
 * Set the min width of a button to 29 pixel for a better grid layout
 * Own login logo (only if you use the skin as a standard login skin)
 * Notification messages are displayed with white text on an orange background
+* Dialogues are more central and transparent, i.e. they no longer cover the menu bar and are coloured according to the skin (no longer simply black)
+* The distances between the widgets on the right of the menu bar have been reduced
 * Scrollbars are shown on the PC (Google Chrome) very reduced (narrow) so that the layout does not shift
-* Predefined table styles (Olive, Blue & Orange) are included
+* Predefined table styles (Olive, Blue & Orange) are provided. In addition, there are simple predefined styles for left, right and centre aligned columns.
 
 ### 2. Size
 
-* <20kB
+* <40kB
 
 ### 3. Compatibility
 
 Skin for IP-Symcon was developed and tested with the following version:
 
-* IP-Symcon 5.1-5.3 (any version)
-* IP-Symcon 5.4 (Ninja)
+* IP-Symcon 5.1-5.4 (any version)
+* IP-Symcon 6.0
+* IP-Symcon 6.1 (Public Beta)
 
 The compatibility with versions prior to IP-Symcon 5.0 should be given, but has not been tested!
 
@@ -53,6 +56,14 @@ or
 5. Click add and enter this URL: <https://github.com/wilkware/WwxSkin>
 
 ### 5. Changelog
+
+v1.5.20211227
+
+* _NEW_: Dialog (popup module) adjusted in size, position and transparency
+* _NEW_: Widget sytles optimised for available space
+* _NEW_: Predefined styles for alignment of table columns (left, right and centre)
+* _FIX_: Update of the Wilkware Login Logo
+* _FIX_: Alternating table cells
 
 v1.4.20200205
 
@@ -84,12 +95,15 @@ v1.0.20180116
 
 ## Developer
 
-* Heiko Wilknitz ([@wilkware](https://github.com/wilkware))
+For more than 10 years now, I have been fascinated by the topic of home control. In the last few years, I have also been intensively involved in the IP-Symcon community and contribute various scripts and modules there. You can find me there under the name @pitti ;-)
+
+[![GitHub](https://img.shields.io/badge/GitHub-@wilkware-blueviolet.svg?logo=github)](https://wilkware.github.io/)
 
 ## Donations
 
-If you'd like to support further development of IP-Symcon modules & skins, please use the donate button below:  
-[![Donate](https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166)
+The software is free for non-commercial use, I would appreciate a donation if you like the skin.
+
+[![PayPal](https://img.shields.io/badge/PayPal-spenden-blue.svg?logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166)
 
 ## Licence
 

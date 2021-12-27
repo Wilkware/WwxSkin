@@ -1,6 +1,29 @@
 /* WwxSkin - webfront.css */
 .ipsLogin>.logo { 
-    background-image: url(./img/logo.wwx.svg); 
+    background-image: url(./img/wwx.logo.png); 
+    height: 128px;
+    margin-left: -64px;
+    margin-top: -250px;
+    width: 128px;
+}
+
+/* Logo central and same width like buttons */  
+.ipsTabPane>.navigation>.sub {
+    padding: 0px 0px 0px 7px;
+    width: 42px;
+}   
+
+/* Info Widget compact */
+.ipsTabPane>.navigation>.widgets>div>.title {
+    margin-top: 2px;
+}
+
+.ipsTabPane>.navigation>.widgets>div>.icon {
+    margin-left: 0px;
+}
+
+.ipsTabPane>.navigation>.widgets {
+    padding: 0px 0px;
 }
 
 /* Fix table.td height to 37px */
@@ -29,6 +52,13 @@
 /* Notification Message Textbox */
 .ipsNotifications>.ipsNotification>.message {
   background: rgba(255,165,0,0.90);
+}
+
+/* Dialog (Popup Box) - a little more central and transparent (not more black) */
+.ipsDialog>div {
+    background: rgba(26,42,56,0.9);
+    top: 5%;
+    bottom: 5%;
 }
 
 /* app-like scrollbar only for google chrome (pc) */
@@ -62,7 +92,7 @@ table.wwx {
   width: 100%
 }
 
-.wwx th, td {
+.wwx th, .wwx td {
   vertical-align: middle;
   text-align: left;
   padding: 5px;
@@ -110,4 +140,30 @@ table.wwx {
 
 .wwx thead.orange {
   background-color: rgb(255, 160, 0);
+}
+
+.tc1  tr > :nth-child(1),
+.tc2  tr > :nth-child(2),
+.tc3  tr > :nth-child(3),
+.tc4  tr > :nth-child(4),
+.tc5  tr > :nth-child(5),
+.tc6  tr > :nth-child(6),
+.tc7  tr > :nth-child(7),
+.tc8  tr > :nth-child(8),
+.tc9  tr > :nth-child(9),
+.tc10 tr > :nth-child(10) { 
+    text-align:center;
+}
+
+.tr1  tr > :nth-child(1),
+.tr2  tr > :nth-child(2),
+.tr3  tr > :nth-child(3),
+.tr4  tr > :nth-child(4),
+.tr5  tr > :nth-child(5),
+.tr6  tr > :nth-child(6),
+.tr7  tr > :nth-child(7),
+.tr8  tr > :nth-child(8),
+.tr9  tr > :nth-child(9),
+.tr10 tr > :nth-child(10) {
+    text-align:right;
 }
