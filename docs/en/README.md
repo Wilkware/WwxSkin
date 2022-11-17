@@ -93,19 +93,19 @@ v1.0.20180116
 
 * _NEW_: Initial version
 
-## Entwickler
+## Developer
 
-Seit nunmehr über 10 Jahren fasziniert mich das Thema Haussteuerung. In den letzten Jahren betätige ich mich auch intensiv in der IP-Symcon Community und steuere dort verschiedenste Skript und Module bei. Ihr findet mich dort unter dem Namen @pitti ;-)
+For more than 10 years now, I have been fascinated by the topic of home control. In recent years, I have also been intensively involved in the IP-Symcon community and contribute various scripts and modules there. You can find me there under the name @pitti ;-)
 
 [![GitHub](https://img.shields.io/badge/GitHub-@wilkware-181717.svg?style=for-the-badge&logo=github)](https://wilkware.github.io/)
 
-## Spenden
+## Donations
 
-Die Software ist für die nicht kommzerielle Nutzung kostenlos, über eine Spende bei Gefallen des Moduls würde ich mich freuen.
+The software is free for non-commercial use, I would appreciate a donation if you like the module.
 
 [![PayPal](https://img.shields.io/badge/PayPal-spenden-00457C.svg?style=for-the-badge&logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166)
 
-## Lizenz
+## Lizense
 
 Attribution - NonCommercial - ShareAlike 4.0 International
 
