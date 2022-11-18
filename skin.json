@@ -1,9 +1,19 @@
 {
-  "author": "Wilkware (@Pitti)",
-  "version": "1.5",
-  "compatible": 1,
-  "url": "https://wilkware.de/ip-symcon-skins/",
-  "git": "https://github.com/wilkware/WwxSkin",
-  "icons": [
-  ]
+    "author": "Wilkware (@Pitti)",
+    "version": "1.6",
+    "compatible": 1,
+    "url": "https://wilkware.de/ip-symcon-skins/",
+    "git": "https://github.com/wilkware/WwxSkin",
+    "icons": [
+        "Markise-0",
+        "Markise-100",
+        "Markise-25",
+        "Markise-50",
+        "Markise-75",
+        "WwxAW",
+        "WwxHW",
+        "WwxLogo",
+        "WwxLW",
+        "WwxPW"
+    ]
 }
