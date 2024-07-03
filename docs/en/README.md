@@ -1,9 +1,9 @@
 # WwxSkin
 
-[![Version](https://img.shields.io/badge/Symcon-Webfront--Skin-red.svg)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-skins/)
-[![Product](https://img.shields.io/badge/Symcon%20Version-6.0-blue.svg)](https://www.symcon.de/produkt/)
-[![Version](https://img.shields.io/badge/Skin%20Version-1.5.20211227-orange.svg)](https://github.com/Wilkware/WwxSkin)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Version](https://img.shields.io/badge/Symcon-Webfront--Skin-red.svg?style=flat-square)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-skins/)
+[![Product](https://img.shields.io/badge/Symcon%20Version-6.4-blue.svg?style=flat-square)](https://www.symcon.de/produkt/)
+[![Version](https://img.shields.io/badge/Skin%20Version-1.6.20240703-orange.svg?style=flat-square)](https://github.com/Wilkware/WwxSkin)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 WebFront Skin for IP-Symcon
 
@@ -28,7 +28,9 @@ Here is a brief list of the adjustments:
 * Dialogues are more central and transparent, i.e. they no longer cover the menu bar and are coloured according to the skin (no longer simply black)
 * The distances between the widgets on the right of the menu bar have been reduced
 * Scrollbars are shown on the PC (Google Chrome) very reduced (narrow) so that the layout does not shift
-* Predefined table styles (Olive, Blue & Orange) are provided. In addition, there are simple predefined styles for left, right and centre aligned columns.
+* Predefined table styles (Olive, Blue, Orange, Dark, Light and Lines) are provided. In addition, there are simple predefined styles for left, right and centre aligned columns.
+* Color picker only via color box and not via brush icon
+* Profile selection dialog higher for more values without scrolling
 
 ### 2. Size
 
@@ -38,9 +40,8 @@ Here is a brief list of the adjustments:
 
 Skin for IP-Symcon was developed and tested with the following version:
 
-* IP-Symcon 5.1-5.4 (any version)
-* IP-Symcon 6.0
-* IP-Symcon 6.1 (Public Beta)
+* IP-Symcon 6.x (any version)
+* IP-Symcon 7.x (any version)
 
 The compatibility with versions prior to IP-Symcon 5.0 should be given, but has not been tested!
 
@@ -56,6 +57,12 @@ or
 5. Click add and enter this URL: <https://github.com/wilkware/WwxSkin>
 
 ### 5. Changelog
+
+v1.6.20240703
+
+* _NEW_: Brush icon for color selection hidden (color picker can only be activated via color box)
+* _NEW_: Value selection dialog (own profiles) enlarged (higher) for more values without scrolling 
+* _NEW_: Table header colors extended (`light`, `dark` (turquoise) and `lines` in preparation for TileVisu v7)
 
 v1.5.20211227
 
